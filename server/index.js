@@ -13,8 +13,11 @@ const db = mysql.createConnection({
   database: 'blah_blah_blossom'
 });
 
+// SELECT < column_name > FROM < table_name >
+// ORDER BY RAND()
+
 app.get('/words', (req,res) => {
-  db.query("SELECT * FROM word_list_1", (err,result) =>{
+  db.query("SELECT * FROM words", (err,result) =>{
     if (err){
       console.log(err)
     } else {
