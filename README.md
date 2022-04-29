@@ -8,3 +8,5 @@
 * 9:00: watch tutorial on React front end, NodeJS back end
 * 9:30: code through tutorial to experiment with environment 
 * 10:00: code through tutorial to experiment with environment
+* 10:30: research on storing images in MySQL or other database
+* 11:00: Begin filling out capstone proposal
