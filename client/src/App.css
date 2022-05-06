@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top: 100px;
 }
 
 .NewWordContainer {
@@ -7,5 +8,10 @@
 }
 
 img {
-  width: 30%;
+  width: 90%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
 }
