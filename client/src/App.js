@@ -1,12 +1,12 @@
 import "./App.css";
 import NewWord from "./components/NewWord.js";
-import Header from "./components/Header.js";
+import SimpleBottomNavigation from "./components/SimpleBottomNavigation";
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <NewWord />
+      <SimpleBottomNavigation />
     </div>
   );
 }
