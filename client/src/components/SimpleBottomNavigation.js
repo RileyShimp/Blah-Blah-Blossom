@@ -9,10 +9,10 @@ import ShuffleIcon from '@mui/icons-material/Shuffle';
 
 export default function SimpleBottomNavigation() {
 
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState("Home");
 
   return (
-    <div class='navBar'>
+    <div className='navBar'>
       <Box sx={{ width: 500 }}>
         <BottomNavigation
           showLabels
@@ -21,9 +21,18 @@ export default function SimpleBottomNavigation() {
             setValue(newValue);
           }}
         >
-          <BottomNavigationAction label="Home" icon={<HomeIcon />} />
-          <BottomNavigationAction label="Flash Cards" icon={<ShuffleIcon />} />
-          <BottomNavigationAction label="Play" icon={<SportsEsportsIcon />} />
+          <BottomNavigationAction 
+          label="Home" 
+          icon={<HomeIcon />} 
+          onClick={()=>{setValue("Home")}} />
+          <BottomNavigationAction 
+          label="Flash Cards" 
+          icon={<ShuffleIcon />} 
+          onClick={()=>{setValue("FlashCards")}} />
+          <BottomNavigationAction 
+          label="Play" 
+          icon={<SportsEsportsIcon />} 
+          onClick={()=>{setValue("Play")}} />
         </BottomNavigation>
       </Box>
     </div>

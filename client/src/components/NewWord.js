@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import Axios from "axios";
 import Button from '@mui/material/Button';
-import { cardActionAreaClasses } from "@mui/material";
 
 function NewWord() {
   const [displayImage, setDisplayImage] = useState({img:"car", word:"Car"});
