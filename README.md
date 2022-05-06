@@ -33,7 +33,8 @@ ___
 * 1:30: Research and plan basic structure of project environment
 * 2:00: Continue research on storing images in MySQL or other database 
 * 2:30: Begin adding initial files 
-
+#### Friday, 05/06 
+* 9:00: Research on how to make only one image display at a time 
 ___
 
 ## License
