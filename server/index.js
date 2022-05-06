@@ -14,11 +14,11 @@ const db = mysql.createConnection({
 });
 
 app.get("/words", (req, res) => {
-  db.query("SELECT img FROM words ORDER BY RAND()", (err, result) => {
+  db.query("SELECT * FROM words ORDER BY RAND()", (err, result) => {
     if (err) {
       console.log(err);
     } else {
-      res.send(result);
+      res.send(result[1]);
     }
   });
 });

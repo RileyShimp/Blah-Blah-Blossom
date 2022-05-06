@@ -14,14 +14,16 @@ function NewWord() {
   return (
     <div className="NewWordContainer" onClick={newWord}>
       <button onClick={newWord}>New Words</button>
-      {displayImage.map((val, key) => {
+    <h1>{displayImage.word}</h1>
+    <img alt="word" src={require(`../assets/img/${displayImage.img}.JPG`)} />
+      {/* {displayImage.map((val, key) => {
         return (
           <div className="wordDisplayed">
-            <h2> {val.img} </h2>
+            <h2> {val.word} </h2>
             <img alt="word" src={require(`../assets/img/${val.img}.JPG`)} />
           </div>
         );
-      })}
+      })} */}
     </div>
   );
 }
