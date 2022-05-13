@@ -3,17 +3,16 @@
   padding-top: 20px;
 }
 
+body{
+  background-color: aqua;
+}
+
 .NewWordContainer img {
   width: 100%;
 }
 
-
 .NewWordContainer{
   padding-top: 80px;
-}
-
-.game{
-  padding-top: 40px;
 }
 
 .navBar {
