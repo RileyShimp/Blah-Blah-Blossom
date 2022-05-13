@@ -1,13 +1,12 @@
 import "./App.css";
 import React from 'react';
 import SimpleBottomNavigation from "./components/SimpleBottomNavigation";
-import FlashCards from "./pages/FlashCards";
+import PageShowing from "./components/PageControl";
 
 
 function App() {
   return (
     <React.Fragment>
-      < FlashCards />
       <SimpleBottomNavigation />
     </React.Fragment>
   );

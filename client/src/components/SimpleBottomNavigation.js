@@ -5,6 +5,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import HomeIcon from '@mui/icons-material/Home';
 import ShuffleIcon from '@mui/icons-material/Shuffle';
+import PageControl from './PageControl';
 
 
 export default function SimpleBottomNavigation() {
@@ -14,6 +15,7 @@ export default function SimpleBottomNavigation() {
   return (
     <div className='navBar'>
       <Box sx={{ width: 500 }}>
+      <PageControl pageShowing={value} />
         <BottomNavigation
           showLabels
           value={value}
