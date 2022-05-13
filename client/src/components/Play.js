@@ -3,7 +3,7 @@ import { useState } from "react";
 import Axios from "axios";
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-
+import Button from '@mui/material/Button';
 
 export default function Play() {
 
@@ -49,8 +49,9 @@ export default function Play() {
   
   return (
     <div>
-      <button onClick={newGame}>Play</button>
-      <ImageList sx={{ width: 400, height: 365 }} cols={2} rowHeight={164}>
+      <Button variant="contained" onClick={newGame}>Play</Button>
+      <h3>Can you find the banana? </h3>
+      <ImageList sx={{ width: 396, height: 365 }} cols={2} rowHeight={164}>
           <ImageListItem>
             <img
               src={require(`../assets/img/${words[1].img}.JPG?w=164&h=164&fit=crop&auto=format`)}
