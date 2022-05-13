@@ -48,7 +48,7 @@ export default function Play() {
   };
   
   return (
-    <div>
+    <div className='game'>
       <Button variant="contained" onClick={newGame}>Play</Button>
       <h3>Can you find the banana? </h3>
       <ImageList sx={{ width: 396, height: 365 }} cols={2} rowHeight={164}>

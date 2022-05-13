@@ -1,5 +1,5 @@
 import React from 'react';
-import NewWord from "./NewWord";
+import NewWord from "./NewWord.js";
 import Home from "./Home"
 import Play from "./Play"
 import CssBaseline from '@mui/material/CssBaseline';

@@ -14,7 +14,9 @@ export default function SimpleBottomNavigation() {
 
   return (
     <div className='navBar'>
-      <Box sx={{ width: 500 }}>
+      <Box sx={{display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh', }}>
       <PageControl pageShowing={value} />
         <BottomNavigation
           showLabels

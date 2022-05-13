@@ -1,9 +1,10 @@
 import React from 'react'
+import SignUp from './SignUp'
 
-export default function Home() {
+export default function DashBoard() {
   return (
     <div>
-      <h1>DashBoard Loading...</h1>
+      <SignUp/>
       </div>
   )
 }
