@@ -23,6 +23,16 @@ app.get("/words", (req, res) => {
   });
 });
 
+app.get("/play", (req, res) => {
+  db.query("SELECT * FROM words ORDER BY RAND()", (err, result) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
+
 app.listen(3001, () => {
   console.log("Yours server is running on port 3001");
 });
