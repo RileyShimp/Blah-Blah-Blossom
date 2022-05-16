@@ -3,10 +3,6 @@
   padding-top: 20px;
 }
 
-body{
-  background-color: aqua;
-}
-
 .NewWordContainer img {
   width: 100%;
 }
@@ -18,4 +14,8 @@ body{
 .navBar {
   display: flex;
   justify-content: center;
+}
+
+.game img{
+  cursor: pointer;
 }
