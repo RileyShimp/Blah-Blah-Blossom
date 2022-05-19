@@ -57,7 +57,7 @@ export default function Play() {
     <div className='game'>
       <Button variant="contained" onClick={newGame}>Play</Button>
       <h3>Can you find the {randomWord}? </h3>
-      <ImageList sx={{ width: 396, height: 365 }} cols={2} rowHeight={164}>
+      <ImageList sx={{ width: 580, height: 550 }} cols={2} rowHeight={164}>
           <ImageListItem>
             <img
               onClick={() => isMatching(`${words[0].word}`)}

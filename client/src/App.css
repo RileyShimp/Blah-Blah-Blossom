@@ -3,6 +3,10 @@
   padding-top: 20px;
 }
 
+body{
+  background-color: aqua;
+}
+
 .NewWordContainer img {
   width: 100%;
 }
@@ -18,4 +22,8 @@
 
 .game img{
   cursor: pointer;
+}
+
+.flashCardImage img{
+  width: 300px
 }

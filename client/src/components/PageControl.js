@@ -19,13 +19,9 @@ export default function PageControl(props) {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="xs">
-        <Box sx={{height: '100vh' }}>
         <div className="App">
           {display}
         </div>
-        </Box>
-      </Container>
     </React.Fragment>
   );
 }

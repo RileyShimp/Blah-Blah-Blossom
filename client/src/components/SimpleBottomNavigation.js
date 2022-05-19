@@ -14,9 +14,6 @@ export default function SimpleBottomNavigation() {
 
   return (
     <div className='navBar'>
-      <Box sx={{display: 'flex',
-        flexDirection: 'column',
-        minHeight: '100vh', }}>
       <PageControl pageShowing={value} />
         <BottomNavigation
           showLabels
@@ -24,7 +21,13 @@ export default function SimpleBottomNavigation() {
           onChange={(event, newValue) => {
             setValue(newValue);
           }}
-        >
+          sx={{
+            display: 'flex',
+            flexDirection: 'row', 
+            position: 'fixed',
+            bottom: '0px',
+            width: '100%'
+            }}>
           <BottomNavigationAction 
           label="Home" 
           icon={<HomeIcon />} 
@@ -38,7 +41,6 @@ export default function SimpleBottomNavigation() {
           icon={<SportsEsportsIcon />} 
           onClick={()=>{setValue("Play")}} />
         </BottomNavigation>
-      </Box>
     </div>
   );
 }
