@@ -41,7 +41,7 @@ export default function Play() {
 ]);
 
   const newGame = () => {
-    Axios.get("http://localhost:3001/play").then((response) => {
+    Axios.get("https://blah-blah-blossom.herokuapp.com/play").then((response) => {
       setWords([response.data[0],response.data[1],response.data[2],response.data[3]]);
       // setWords([...response.data.slice(0,4)])
     });

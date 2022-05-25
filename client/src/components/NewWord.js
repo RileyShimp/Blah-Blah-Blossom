@@ -7,7 +7,7 @@ function NewWord() {
   const [displayImage, setDisplayImage] = useState({img:"car", word:"Car"});
 
   const newWord = () => {
-    Axios.get("http://localhost:3001/words").then((response) => {
+    Axios.get("https://blah-blah-blossom.herokuapp.com/words").then((response) => {
       setDisplayImage(response.data);
       console.log(response.data);
     });
