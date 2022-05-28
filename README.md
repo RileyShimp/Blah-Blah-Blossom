@@ -1,10 +1,11 @@
 # Blah Blah Blossom!
+[https://blah-blah-blossom.netlify.app/]
 
 created by Riley Shimp
 ___
 
 ## Description
- Blah Blah Blossom is an application for babies and toddlers to play with and learn their first words! A minimal and easy to use UI will allow them to navigate through several pages, each with a new word and corresponding image. The Application will be build with a React Frontend and a NodeJS backend.
+ Blah Blah Blossom is an application for babies and toddlers to play with and learn their first words! A minimal and easy to use UI will allow them to navigate through several pages, each with a new word and corresponding image. The Application is built with a React Frontend and a NodeJS backend.
 ___
 
 ## Technologies Used
